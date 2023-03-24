@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5281b6b1fb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <title>E-Commerce site - Cart</title>
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="img/logo.png" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping cart"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            <i id="bar" class="fa fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+            
+            <h2>#cart</h2>
+            
+            <p>Add your coupon code & SAVE UPTO 70%!</p>
+            
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="#"><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td>
+                        <img src="img/products/f1.jpg" alt="">
+                    </td>
+                    <td>
+                        Cartoon Astronaut T-Shirts 
+                    </td>
+                    <td>
+                        $120.00
+                    </td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>
+                        $120.00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#"><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td>
+                        <img src="img/products/f2.jpg" alt="">
+                    </td>
+                    <td>
+                        Cartoon Jungle T-Shirts 
+                    </td>
+                    <td>
+                        $130.25
+                    </td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>
+                        $130.20 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#"><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td>
+                        <img src="img/products/f3.jpg" alt="">
+                    </td>
+                    <td>
+                        Cartoon Boys T-Shirts 
+                    </td>
+                    <td>
+                        $170.00
+                    </td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>
+                        $170.00
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon!</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Card Subtotal</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed To Checkout</button>
+        </div>
+    </section>
+    
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 Crosby Street, New York</p>
+            <p><strong>Phone:</strong> +01 2225 689 /(+91) 716-225-0929</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Chart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Getways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>&copy; 2022, Copyright E-commerce Site Using HTML, CSS, JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
